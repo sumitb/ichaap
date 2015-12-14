@@ -24,9 +24,18 @@
 
             <Button android:id="@+id/dummy_button" style="?metaButtonBarButtonStyle"
                 android:layout_width="0dp" android:layout_height="wrap_content"
-                android:layout_weight="1" android:text="@string/dummy_button" />
+                android:layout_weight="1" android:text="@string/dummy_button"
+                android:onClick="selfCellularMeasurement"/>
 
         </LinearLayout>
+
+        <TextView
+            android:layout_width="276dp"
+            android:layout_height="487dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView"
+            android:layout_gravity="center" />
     </FrameLayout>
 
 </FrameLayout>
